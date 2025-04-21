@@ -34,7 +34,7 @@ options = vision.PoseLandmarkerOptions(
 detector = vision.PoseLandmarker.create_from_options(options)
 
 # Open video file
-video_path = 'Virus Scan Alert.mp4'
+video_path = 'Video 3.mp4'
 cap = cv2.VideoCapture(video_path)
 # Get video properties and swap width/height for rotation
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
